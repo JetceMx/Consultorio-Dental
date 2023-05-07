@@ -1,0 +1,19 @@
+.carousel-inner {
+    height: 50vh;
+    min-height: 400px;
+}
+
+.contenedor {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+}
+
+.servicios {
+    text-align: center;
+    padding: 10px;
+}
+
+.contenido {
+    text-align: center;
+}
