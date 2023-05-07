@@ -11,6 +11,7 @@ import { RecomendacionesComponent } from './recomendaciones/recomendaciones.comp
 import { AgendarComponent } from './citas/agendar/agendar.component';
 import { RevisarComponent } from './citas/revisar/revisar.component';
 import { CitasComponent } from './citas/citas.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { CitasComponent } from './citas/citas.component';
     AgendarComponent,
     RevisarComponent,
     CitasComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
