@@ -9,6 +9,7 @@ import { RevisarComponent } from './citas/revisar/revisar.component';
 import { CitasComponent } from './citas/citas.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/inicio', pathMatch: 'full' },
   { path: 'inicio', component: InicioComponent },
   { path: 'contactanos', component: ContactanosComponent },
   { path: 'acercaDe', component: AcercaDeComponent },
